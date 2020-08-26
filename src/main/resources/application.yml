@@ -8,7 +8,7 @@ spring:
       max-file-size: 20MB
   datasource:
     #数据库文件在resource/sql那里
-    url: jdbc:mysql://你数据库地址:3306/file_db?serverTimezone=Asia/Shanghai&useAffectedRows=true&useSSL=true&characterEncoding=utf8
+    url: jdbc:mysql://47.100.45.101:3306/file_db?serverTimezone=Asia/Shanghai&useAffectedRows=true&useSSL=true&characterEncoding=utf8
     password:
     username: root
     driver-class-name: com.mysql.cj.jdbc.Driver
